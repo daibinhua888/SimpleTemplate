@@ -8,3 +8,13 @@ C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\Cons
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\bin\Debug\SimpleTemplate.dll
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\bin\Debug\SimpleTemplate.pdb
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
