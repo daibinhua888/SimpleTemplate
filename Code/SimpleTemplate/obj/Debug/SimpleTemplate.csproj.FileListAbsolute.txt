@@ -1,0 +1,13 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\bin\Debug\SimpleTemplate.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\bin\Debug\SimpleTemplate.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\bin\Debug\Antlr4.Runtime.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\bin\Debug\Antlr4.Runtime.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\SimpleTemplate.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\SimpleTemplate.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\TemplateLexer.cs
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\TemplateParser.cs
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\TemplateListener.cs
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\TemplateBaseListener.cs
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\TemplateVisitor.cs
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\TemplateBaseVisitor.cs
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\obj\Debug\SimpleTemplate.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
