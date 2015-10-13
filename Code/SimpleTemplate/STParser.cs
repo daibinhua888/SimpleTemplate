@@ -17,9 +17,15 @@ namespace SimpleTemplate
 
             Antlr4.Runtime.UnbufferedTokenStream tokens = new Antlr4.Runtime.UnbufferedTokenStream(lexer);
             TemplateParser parser = new TemplateParser(tokens);
-            parser.RemoveErrorListeners();
+
+            SimpleTemplateErrorListener errorLsn=new SimpleTemplateErrorListener();
+
+            parser.AddErrorListener(errorLsn);
 
             var tree = parser.parse();
+
+            if (errorLsn.ErrorType != ParseErrorType.Successful)
+                throw new Exception(errorLsn.ErrorType.ToString());
 
             SimpleTemplateVisitor visitor = new SimpleTemplateVisitor(variables);
 

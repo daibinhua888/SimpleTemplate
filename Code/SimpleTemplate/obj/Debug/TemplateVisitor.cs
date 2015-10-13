@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\g4\Template.g4 by ANTLR 4.5-SNAPSHOT
+// Generated from C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\SimpleTemplate\g4\Template.g4 by ANTLR 4.5-SNAPSHOT
 
 // Unreachable code detected
 #pragma warning disable 0162
@@ -141,5 +141,82 @@ public interface ITemplateVisitor<Result> : IParseTreeVisitor<Result> {
 	/// <param name="context">The parse tree.</param>
 	/// <return>The visitor result.</return>
 	Result VisitDigital([NotNull] TemplateParser.DigitalContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.if_stmt"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitIf_stmt([NotNull] TemplateParser.If_stmtContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.if_stmt_conditions_block"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitIf_stmt_conditions_block([NotNull] TemplateParser.If_stmt_conditions_blockContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.if_stmt_conditions_body"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitIf_stmt_conditions_body([NotNull] TemplateParser.If_stmt_conditions_bodyContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.if_stmt_conditions"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitIf_stmt_conditions([NotNull] TemplateParser.If_stmt_conditionsContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.if_stmt_condition"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitIf_stmt_condition([NotNull] TemplateParser.If_stmt_conditionContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.if_stmt_else_block"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitIf_stmt_else_block([NotNull] TemplateParser.If_stmt_else_blockContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.if_stmt_else_body"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitIf_stmt_else_body([NotNull] TemplateParser.If_stmt_else_bodyContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.if_stmt_end_if_block"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitIf_stmt_end_if_block([NotNull] TemplateParser.If_stmt_end_if_blockContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.left_op"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitLeft_op([NotNull] TemplateParser.Left_opContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.right_op"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitRight_op([NotNull] TemplateParser.Right_opContext context);
+
+	/// <summary>
+	/// Visit a parse tree produced by <see cref="TemplateParser.op"/>.
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	/// <return>The visitor result.</return>
+	Result VisitOp([NotNull] TemplateParser.OpContext context);
 }
 } // namespace SimpleTemplate.g4

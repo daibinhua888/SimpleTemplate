@@ -106,5 +106,10 @@ namespace SimpleTemplate
 
             return string_value;
         }
+
+        public override string VisitIf_stmt(g4.TemplateParser.If_stmtContext context)
+        {
+            return base.VisitIf_stmt(context);
+        }
     }
 }

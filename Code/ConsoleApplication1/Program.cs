@@ -27,6 +27,15 @@ testing
 @{repeat count}
 testing
 @{end repeat}
+---------------------
+@{if 1=1}
+111111111111111
+222222222222222
+@{else}
+33333333333333
+44444444444444
+55555555555555
+@{/if}
 ";
             Dictionary<string, object> ctx = new Dictionary<string, object>();
 

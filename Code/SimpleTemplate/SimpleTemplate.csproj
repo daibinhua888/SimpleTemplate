@@ -47,7 +47,9 @@
     <Antlr4 Include="g4\Template.g4">
       <CustomToolNamespace>SimpleTemplate.g4</CustomToolNamespace>
     </Antlr4>
+    <Compile Include="ParseErrorType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleTemplateErrorListener.cs" />
     <Compile Include="SimpleTemplateVisitor.cs" />
     <Compile Include="STParser.cs" />
   </ItemGroup>

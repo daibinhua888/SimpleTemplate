@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// Generated from C:\Users\Administrator\Documents\Visual Studio 2012\Projects\SimpleTemplate\SimpleTemplate\g4\Template.g4 by ANTLR 4.5-SNAPSHOT
+// Generated from C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\SimpleTemplate\g4\Template.g4 by ANTLR 4.5-SNAPSHOT
 
 // Unreachable code detected
 #pragma warning disable 0162
@@ -240,6 +240,149 @@ public partial class TemplateBaseListener : ITemplateListener {
 	/// </summary>
 	/// <param name="context">The parse tree.</param>
 	public virtual void ExitDigital([NotNull] TemplateParser.DigitalContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.if_stmt"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIf_stmt([NotNull] TemplateParser.If_stmtContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.if_stmt"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIf_stmt([NotNull] TemplateParser.If_stmtContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.if_stmt_conditions_block"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIf_stmt_conditions_block([NotNull] TemplateParser.If_stmt_conditions_blockContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.if_stmt_conditions_block"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIf_stmt_conditions_block([NotNull] TemplateParser.If_stmt_conditions_blockContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.if_stmt_conditions_body"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIf_stmt_conditions_body([NotNull] TemplateParser.If_stmt_conditions_bodyContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.if_stmt_conditions_body"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIf_stmt_conditions_body([NotNull] TemplateParser.If_stmt_conditions_bodyContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.if_stmt_conditions"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIf_stmt_conditions([NotNull] TemplateParser.If_stmt_conditionsContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.if_stmt_conditions"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIf_stmt_conditions([NotNull] TemplateParser.If_stmt_conditionsContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.if_stmt_condition"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIf_stmt_condition([NotNull] TemplateParser.If_stmt_conditionContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.if_stmt_condition"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIf_stmt_condition([NotNull] TemplateParser.If_stmt_conditionContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.if_stmt_else_block"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIf_stmt_else_block([NotNull] TemplateParser.If_stmt_else_blockContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.if_stmt_else_block"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIf_stmt_else_block([NotNull] TemplateParser.If_stmt_else_blockContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.if_stmt_else_body"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIf_stmt_else_body([NotNull] TemplateParser.If_stmt_else_bodyContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.if_stmt_else_body"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIf_stmt_else_body([NotNull] TemplateParser.If_stmt_else_bodyContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.if_stmt_end_if_block"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterIf_stmt_end_if_block([NotNull] TemplateParser.If_stmt_end_if_blockContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.if_stmt_end_if_block"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitIf_stmt_end_if_block([NotNull] TemplateParser.If_stmt_end_if_blockContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.left_op"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterLeft_op([NotNull] TemplateParser.Left_opContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.left_op"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitLeft_op([NotNull] TemplateParser.Left_opContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.right_op"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterRight_op([NotNull] TemplateParser.Right_opContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.right_op"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitRight_op([NotNull] TemplateParser.Right_opContext context) { }
+
+	/// <summary>
+	/// Enter a parse tree produced by <see cref="TemplateParser.op"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void EnterOp([NotNull] TemplateParser.OpContext context) { }
+	/// <summary>
+	/// Exit a parse tree produced by <see cref="TemplateParser.op"/>.
+	/// <para>The default implementation does nothing.</para>
+	/// </summary>
+	/// <param name="context">The parse tree.</param>
+	public virtual void ExitOp([NotNull] TemplateParser.OpContext context) { }
 
 	/// <inheritdoc/>
 	/// <remarks>The default implementation does nothing.</remarks>
