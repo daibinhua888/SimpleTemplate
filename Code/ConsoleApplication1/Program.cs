@@ -28,23 +28,29 @@ testing
 testing
 @{end repeat}
 ---------------------
-@{if 1=1}
+@{if userCount>userSystem.TargetCount}
 111111111111111
 222222222222222
 @{else}
 33333333333333
 44444444444444
 55555555555555
-@{/if}
-";
+@{/if}";
             Dictionary<string, object> ctx = new Dictionary<string, object>();
 
             User usr = new User() { Name = "McKay", Age = "你猜" };
             ctx["user"] = usr;
             ctx["count"] = 2;
 
-            Console.WriteLine(STParser.GenerateStringView(template, ctx));
+            UserSystem us = new UserSystem();
+            us.TargetCount = 4;
 
+            ctx["userCount"] = 2;
+            ctx["userSystem"] = us;
+
+            Console.WriteLine("******************************************");
+            Console.WriteLine(STParser.GenerateStringView(template, ctx));
+            Console.WriteLine("******************************************");
             Console.ReadKey();
         }
     }
@@ -53,5 +59,10 @@ testing
     {
         public string Name { get; set; }
         public string Age { get; set; }
+    }
+
+    class UserSystem
+    {
+        public int TargetCount { get; set; }
     }
 }

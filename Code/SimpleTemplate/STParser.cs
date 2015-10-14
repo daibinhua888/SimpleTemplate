@@ -29,7 +29,7 @@ namespace SimpleTemplate
 
             SimpleTemplateVisitor visitor = new SimpleTemplateVisitor(variables);
 
-            string result=visitor.Visit(tree);
+            string result=(string)visitor.Visit(tree);
 
             return result;
         }

@@ -51,6 +51,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleTemplateErrorListener.cs" />
     <Compile Include="SimpleTemplateVisitor.cs" />
+    <Compile Include="Stmts\IfStmt_ConditionsResult.cs" />
+    <Compile Include="Stmts\IfStmt_ElseResult.cs" />
     <Compile Include="STParser.cs" />
   </ItemGroup>
   <ItemGroup>

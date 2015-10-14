@@ -24,3 +24,4 @@ C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\SimpleTemplate\obj\D
 C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\SimpleTemplate\obj\Debug\TemplateBaseListener.cs
 C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\SimpleTemplate\obj\Debug\TemplateVisitor.cs
 C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\SimpleTemplate\obj\Debug\TemplateBaseVisitor.cs
+C:\Users\Administrator\Documents\GitHub\SimpleTemplate\Code\SimpleTemplate\obj\Debug\SimpleTemplate.csprojResolveAssemblyReference.cache
